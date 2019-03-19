@@ -161,12 +161,27 @@ div.searchBox:hover {
 
 .footer {
   display: flex;
+  align-items: center;
   width: 100%;
   position: absolute;
   bottom: 0px;
   background-color: #f2f2f2;
   height: 40px;
   border-top: 1px solid #e4e4e4;
+  font-size: 13px;
+}
+
+.leftFooter {
+  display: flex;
+  width: 50%;
+  padding-left: 3px;
+}
+
+.rightFooter {
+  display: flex;
+  width: 50%;
+  margin-right: 30px;
+  justify-content: flex-end;
 }
 
 .footer ul {
@@ -176,4 +191,14 @@ div.searchBox:hover {
 
 .footer li {
   display: inline;
+}
+
+.footer li a {
+  text-decoration: none;
+  padding-left: 27px;
+  color: rgba(0,0,0,0.75);
+}
+
+.footer li a:hover {
+  text-decoration: underline;
 }
