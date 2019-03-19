@@ -19,8 +19,21 @@ nav {
   height: 100%;
 }
 
+.leftNav {
+  padding-left: 10px;
+}
+
 .rightNav {
   justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.googleApps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
 }
 
 ul {
@@ -40,6 +53,20 @@ nav li {
 nav a {
   text-decoration: none;
   padding-left: 15px;
+  color: rgba(0,0,0,0.75);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a img {
+  opacity: 0.65;
+}
+
+nav a img:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .main {
